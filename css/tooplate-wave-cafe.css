@@ -352,8 +352,8 @@ h2 { margin-top: 0; }
     .tm-drinks-nav { height: auto; }
 
     .tm-drinks-nav > ul {
-        flex-direction: column;
-        padding: 15px;
+        flex-direction: row;
+        padding: 10px;
     }
 
     .tm-drinks-nav > ul > li { margin-bottom: 10px; }
