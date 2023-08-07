@@ -336,7 +336,7 @@ h2 { margin-top: 0; }
 }
 
 @media (max-width: 479px) {
-    .tm-site-name { font-size: 2.6rem; }
+    .tm-site-name { font-size: 2.0rem; }
     .tm-site-logo { margin-right: 20px; }
 
     .tm-list-item {
