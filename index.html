@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
     <link rel="stylesheet" href="css/tooplate-wave-cafe.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   
 <!--
 Tooplate 2121 Wave Cafe
 https://www.tooplate.com/view/2121-wave-cafe
@@ -419,36 +419,6 @@ https://www.tooplate.com/view/2121-wave-cafe
   </script>
   <script src="js/app.js"></script>
 
-<script>
-//*************  form **************//
-$(document).ready(function() {
-  // Seleccionar el formulario por su ID
-  var form = $("#contact-form");
 
-  // Manejar el evento de envío del formulario
-  form.submit(function(event) {
-    event.preventDefault(); // Prevenir el comportamiento de envío por defecto
-
-    // Obtener los datos del formulario
-    var formData = form.serialize();
-
-    // Enviar la solicitud AJAX
-    $.ajax({
-      type: "POST",
-      url: form.attr("action"),
-      data: formData,
-      success: function(response) {
-        // Manejar la respuesta del servidor aquí
-        console.log("Respuesta del servidor:", response);
-        // Puedes mostrar un mensaje al usuario o realizar otras acciones
-      },
-      error: function(error) {
-        // Manejar errores aquí
-        console.error("Error en la solicitud AJAX:", error);
-      }
-    });
-  });
-});
-</script>
 </body>
 </html>
