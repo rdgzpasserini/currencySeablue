@@ -1,1 +1,1 @@
-# currencySeablue
+# SeablueCurrency
