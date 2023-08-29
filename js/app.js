@@ -14,13 +14,13 @@ function obtenerDatos() {
         document.getElementById('dolarBluePromedio').innerText ='$'+ data.blue.value_avg.toFixed(2);
         document.getElementById('dolarBlueVenta').innerText ='$'+ data.blue.value_sell.toFixed(2);
   
-        document.getElementById('euroOficialCompra').innerText ='€'+data.oficial_euro.value_buy.toFixed(2);
-        document.getElementById('euroOficialPromedio').innerText ='€'+data.oficial_euro.value_avg.toFixed(2);
-        document.getElementById('euroOficialVenta').innerText ='€'+data.oficial_euro.value_sell.toFixed(2);
+        document.getElementById('euroOficialCompra').innerText ='$'+data.oficial_euro.value_buy.toFixed(2);
+        document.getElementById('euroOficialPromedio').innerText ='$'+data.oficial_euro.value_avg.toFixed(2);
+        document.getElementById('euroOficialVenta').innerText ='$'+data.oficial_euro.value_sell.toFixed(2);
   
-        document.getElementById('euroBlueCompra').innerText ='€'+data.blue_euro.value_buy.toFixed(2);
-        document.getElementById('euroBluePromedio').innerText ='€'+data.blue_euro.value_avg.toFixed(2);
-        document.getElementById('euroBlueVenta').innerText ='€'+data.blue_euro.value_sell.toFixed(2);
+        document.getElementById('euroBlueCompra').innerText ='$'+data.blue_euro.value_buy.toFixed(2);
+        document.getElementById('euroBluePromedio').innerText ='$'+data.blue_euro.value_avg.toFixed(2);
+        document.getElementById('euroBlueVenta').innerText ='$'+data.blue_euro.value_sell.toFixed(2);
       })
       .catch(error => console.error('Error al obtener los datos:', error));
   }
